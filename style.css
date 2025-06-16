@@ -1,0 +1,29 @@
+
+body {
+  margin: 0;
+  background: #111;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#game-container {
+  position: relative;
+}
+canvas {
+  background: #222;
+  border: 2px solid #fff;
+}
+#controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+button {
+  font-size: 24px;
+  margin: 0 10px;
+  padding: 10px 20px;
+}
